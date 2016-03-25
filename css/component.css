@@ -1152,13 +1152,13 @@ h1 span {
 	100% { transform: translateY(100%); opacity: 0;}
 }
 
-@media screen and (min-height: 50em) {
+@media screen and (min-height: 100px) {
 	.icons span.letter {
 		font-size: 110px;
 	}
 }
 
-@media screen and (max-width: 52em) {
+@media screen and (max-width: 760px) {
 	.icons span.letter {
 		font-size: 50px;
 	}
@@ -1168,7 +1168,7 @@ h1 span {
 	}
 }
 
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 600px) {
 	.icons span.letter {
 		font-size: 25px;
 		line-height: 80px;
