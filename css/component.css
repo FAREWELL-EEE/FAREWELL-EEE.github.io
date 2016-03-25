@@ -1155,14 +1155,14 @@ h1 span {
 @media screen and (min-width: 700px) {
 	overflow: hidden;
 	.icons span.letter {
-		font-size: 90px;
+		font-size: 100px;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	
 	.icons span.letter {
-		font-size: 110px;
+		font-size: 90px;
 	}
 	.step-3 .icons span.letter, 
 	.step-4 .icons span.letter {
