@@ -1152,15 +1152,17 @@ h1 span {
 	100% { transform: translateY(100%); opacity: 0;}
 }
 
-@media screen and (min-height: 50em) {
+@media screen and (min-width: 700px) {
+	overflow: hidden;
 	.icons span.letter {
-		font-size: 110px;
+		font-size: 90px;
 	}
 }
 
-@media screen and (max-width: 52em) {
+@media screen and (max-width: 1000px) {
+	
 	.icons span.letter {
-		font-size: 60px;
+		font-size: 110px;
 	}
 	.step-3 .icons span.letter, 
 	.step-4 .icons span.letter {
@@ -1168,9 +1170,9 @@ h1 span {
 	}
 }
 
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 430px) {
 	.icons span.letter {
-		font-size: 20px;
+		font-size: 30px;
 		line-height: 80px;
 	}
 
