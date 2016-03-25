@@ -1160,7 +1160,7 @@ h1 span {
 
 @media screen and (max-width: 52em) {
 	.icons span.letter {
-		font-size: 44px;
+		font-size: 50px;
 	}
 	.step-3 .icons span.letter, 
 	.step-4 .icons span.letter {
@@ -1170,7 +1170,7 @@ h1 span {
 
 @media screen and (max-width: 44em) {
 	.icons span.letter {
-		font-size: 18px;
+		font-size: 25px;
 		line-height: 80px;
 	}
 
